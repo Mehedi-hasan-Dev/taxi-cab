@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+/* navbar part start */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 20px !important;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    font-weight: 700;
+    background: #ffc61a;
+    border-radius: 50px;
+    color: black;
+}
+.navbar-toggler-icon{
+    background-color: #fff;
+    border: 2px solid #ffc61a;
+}
+
+
+/* navbar part end */
+/* banner part start */
+
+#banner{
+    padding-top: 155px;
+    padding-bottom: 430px;
+    background: url(../images/Taxi-Cab-Service-Company-Website-Template-PSD.jpg) no-repeat center;
+}
+.banner-text h2{
+    color: #ffc61a;
+}
+.banner-text h1{
+    color: #fff;
+    font-size: 50px;
+}
+.banner-img {
+    position: absolute;
+    bottom: -195px;
+    left: 18%;
+}
+/* banner part end */
+/* about part start */
+#about{
+    background: #ffc61a;
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+.about-button a{
+ padding: 10px 20px;
+ background: #000;
+ color: #fff;
+}
+.about-button a:hover{
+    border: 1px solid #000;
+    color: #fff;
+}
+
+
+form{
+    width: 90%;
+    max-width: 600px;
+}
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input ::placeholder{
+    color: #000;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    font-size: 15px;
+
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #000000;
+    cursor: text;
+}
+.contact-wrap button{
+    padding: 10px 0;
+    color: #00d9ff;
+    outline: 0;
+    background: transparent;
+    width: 100%;
+    cursor: pointer;
+}
+
+.about-row{
+    display: flex;
+    justify-content: space-between;
+}
+.about-row .input-group{
+    flex-basis: 48%;
+}
+.about-form-button button{
+ width: 100%;
+ background-color: #000;
+ color: #ffc61a;
+ font-size: 18px;
+}
+.about-form-button button:hover{
+    background-color: #ffc61a;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+/* about part end */
+
+/* feature part start */
+.card{
+    transition: all linear 0.4s;
+    margin-top: 70px !important;
+}
+.card-body h2{
+    transition: all linear 0.4s;
+
+}
+.card img {
+    position: absolute;
+    top: -70px;
+    left: 175px;
+    transform: translateX(-50%);
+}
+.card:hover{
+    background: #ffc61a;
+}
+.card:hover h2 {
+    color: #000 !important;
+}
+
+/* feature part end */
+
+/* <!-- blog part end --> */
+#blog{
+    background: url(../images/banner-2.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+#blog::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+.blog-top{
+    z-index: 2;
+}
+.b-icon{
+    font-size: 50px;
+}
+
+/* <!-- blog part end --> */
+
+
+/* <!-- download app part start --> */
+.app-left-img img{
+    cursor: pointer;
+}
+/* <!-- download app part end --> */
+
+
+/* <!-- clients  part start --> */
+#clients{
+    background: url(../images/banner-3.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+#clients::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+/* <!-- clients part end --> */
+/* footer */
+.f-icons i{
+    cursor: pointer;
+    font-size: 25px;
+}
+.f-icons svg{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 991px){
+    .nav-link{
+        background: #00d9ff;
+    }
+}
