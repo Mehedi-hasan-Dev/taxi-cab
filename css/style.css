@@ -44,6 +44,7 @@ ul,ol{
     padding-top: 155px;
     padding-bottom: 430px;
     background: url(../images/Taxi-Cab-Service-Company-Website-Template-PSD.jpg) no-repeat center;
+    position: relative;
 }
 .banner-text h2{
     color: #ffc61a;
@@ -52,10 +53,14 @@ ul,ol{
     color: #fff;
     font-size: 50px;
 }
-.banner-img {
+.banner-img{
+    position: relative;
+}
+.banner-img img{
     position: absolute;
-    bottom: -195px;
-    left: 18%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,10%);
 }
 /* banner part end */
 /* about part start */
